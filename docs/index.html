@@ -8,409 +8,361 @@
         <title>moneytweet</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-        
     </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand logo" href="#page-top">moneytweet</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#goals">Goals</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <div class="text-nowrap">
+                    <a class="navbar-brand logo mx-1" href="#!">moneytweet</a>
+                    <span class="navbar-brand mx-1">|</span>
+                    <a class="navbar-brand logo mx-1" href="https://www.haw-hamburg.de/en/university/faculty-of-engineering-and-computer-science/departments/computer-science/" target="_blank">
+                        <img class="d-inline-block align-text-top" src="./assets/haw_logo.png" alt="" height="24">
+                    </a>
+                    
+                </div>
+                
+                
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#institution">Institution</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <!-- <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." /> -->
-                <img class="masthead-avatar mb-5" src="assets/img/logo.png" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0 logo">moneytweet</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2 logo">moneytweet</h1>
+                            <p class="lead text-white-50 mb-4">
+                                See the influence of current social trends on the share market.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Real-time trends. Real-time money.<br>
-                    Powered by Big-Data</p>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="goals">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Goals</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+        <!-- Project overview-->
+        <section class="py-5 border-bottom" id="project">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder" >Project overview</h2>
                 </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="bi bi-newspaper me-2"></i>
+                            Functional overview
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body mx-5">
+                            <p>
+                                Shares are important measure in finance.
+                                They represent an economic part of a company.
+                                However, share prices are not only dependant on the company itself but rely strongly on traders.
+                                If lots of them buy a company's share its value rises and vice versa.
+                            </p>
+                            <p>
+                                Traders follow the interest to sell their shares for a higher prica than they bought them with.
+                                As a result, they do not only influence a share's price but also rely on it.
+                                The difficult part for a trading person is to <i>know</i> when to sell a share.
+                                However, <i>knowing</i> this is exactly not possible as other influences may trigger a sudden change of a share's price.
+                                Thus, trading is more of a <i>guess</i>.
+                            </p>
+                            <p>
+                                As traders are people, they are being influenced by daily happenings.
+                                A sudden set of a trend could rise a company's share prices.
+                                A big platform that does not only sets trends but also gives an overview of current trends is Twitter.
+                                Users are able to post their opinion abous any subject.
+                                Often, they communicate about trends.
+                            </p>
+                            <p>
+                                Combining both areas, it should be possible to analyze whether a social trend and a share's price do correlate.
+                                This is being done by analyzing the sentiment of tweets in a certain topic and comparing the average mood to the current price of a share.
+                                Tweets do probably not influence a share directly but rather represent people's opinion e.g. towards its company.
+                                If both share a certain connection, a positive sentiment of a specific amount of tweets and a rise of a share's price should happen in the same time range.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="bi bi-wrench-adjustable me-2"></i>
+                            Technical overview
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body mx-5">
+                            <p>
+                                Analyzing a correlation of a social trend and prices of shares needs large amounts of data.
+                                Firstly, specific data has to be collected.
+                                Share prices can be queried using finance endpoints.
+                                Tweets can be collected from APIs provided by Twitter itself.
+                                However, this topic cannot only be approached by taking current data.
+                                Furthermore, historical data has to be used.
+                                In this way, past trends can be identified and used for learning how they represented the trend's influence on a share.
+                                Using this data, a model can be developed to adapt historical occurences and using them to identify current and possibly future developments.
+                            </p>
+                            <p>
+                                By using large amounts of data, a specific data architecture has to be used.
+                                Therefore, a Lambda-inspired architecture design has been developed.
+                                If focuses on fast data processing for real time data analytics as well as computing older data.
+                                Identifying a social trend can then be done through analyzing the sentiment of tweets of a specific topic.
+                                This makes it not only possible to track real-time changes but also use historical data in combination with new one.
+                            </p>
+                            <p>
+                                Share prices are being collected as well and used to identify sudden changes in their prices.
+                                This leads to points in the past when a social trend could have been occurend and impacted share prices.
+                                The collected set of important historical points in time can be verified or counterfeit through sentiments of tweets.
+                            </p>
+
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
+                            <i class="bi bi-cpu me-2"></i>
+                              Used Technology
+                          </button>
+                        </h2>
+                        <div id="collapseTree" class="accordion-collapse show" aria-labelledby="headingTree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body mx-5 text-center">
+                                <div class="row">
+                                    <div class="col-sm-3 d-flex align-items-stretch">
+                                      <div class="card">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Lambda</h5>
+                                          <p class="card-text">Lambda architecture to process large amounts of data.</p>
+                                            <div class="display-1 fw-bold text-primary">λ</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-3 d-flex align-items-stretch">
+                                      <div class="card">
+                                        <div class="card-body">
+                                          <h5 class="card-title">ICC</h5>
+                                          <p class="card-text">Using the ICC (Informatik Compute Cloud) as cloud infrastructure service.</p>
+                                          <img src="./assets/icc.jpg" alt="" width="100%">
+                                          <span>&copy; <a href="https://icc.informatik.haw-hamburg.de/">haw-hamburg.de</a></span>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-3 d-flex align-items-stretch">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title">MongoDB</h5>
+                                            <p class="card-text">Storing queried data as documents for easy processing.</p>
+                                            <img src="./assets/mongodb.png" alt="" width="100%">
+                                            <span>&copy; <a href="https://www.mongodb.com/">mongodb.com</a></span>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-3 d-flex align-items-stretch">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title">Apache Spark</h5>
+                                            <p class="card-text">Analyzing large-scale data.</p>
+                                            <img src="./assets/spark.svg" alt="" width="100%">
+                                            <span>&copy; <a href="https://spark.apache.org/">spark.apache.org</a></span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/ai.png" alt="..." />
+                        </div>
+                      </div>
+                </div>
+
+                <div class="my-5">
+                    <h5>Development status</h5>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Architecture design</div>
+                                A suitable system based on the Lambda architecture has been found and designed.
+                          </div>
+                          <span class="badge rounded-pill bg-success">Done</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Technical environment setup</div>
+                            The development setup and cloud infrastructure has been set up.
+                          </div>
+                          <span class="badge rounded-pill bg-success">Done</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Architecture implementation</div>
+                            The planned Lambda architecture is being implemented using different technologies and subsystems.
+                          </div>
+                          <span class="badge rounded-pill bg-warning">Current</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Creating the application</div>
+                                The application for sentiment analysis and finding important occurences in the data is being developed.
+                            </div>
+                            <span class="badge rounded-pill bg-warning">Current</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Creating data collection scripts</div>
+                                Scripts to query data from Twitter and share prices are being developed.
+                            </div>
+                            <span class="badge rounded-pill bg-warning">Current</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Collecting data</div>
+                                Created scripts to query the data have to be executed and save the data.
+                            </div>
+                            <span class="badge rounded-pill bg-primary">Outstanding</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Analyzing data</div>
+                                Queried and downloaded data has to be analyzed.
+                            </div>
+                            <span class="badge rounded-pill bg-primary">Outstanding</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Evaluate data</div>
+                                Analyzed data has to be evalueated to find correlated social trends in twitter posts and share price developments.
+                            </div>
+                            <span class="badge rounded-pill bg-primary">Outstanding</span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section class="bg-light py-5 border-bottom" id="contact">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Contact</h2>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <!-- Contact card Robin-->
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold text-muted mb-3">Masters student</div>
+                                <span class="display-6">Robin Grun</span>
+                                <div class="d-inline-block mt-3">
+                                    
+                                    <div class="d-inline-flex">
+                                        <i class="bi bi-house-fill me-2"></i>
+                                        <address>
+                                            Department Informatik<br>
+                                            Berliner Tor 7<br>
+                                            20099 Hamburg
+                                        </address>
+                                    </div>
+                                    <div class="d-inline-flex">
+                                        <i class="bi bi-envelope-fill me-2"></i>
+                                        <a href="mailto:robin.grun@haw-hamburg.de">robin.grun@haw-hamburg.de</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <!-- Contact card Fridolin-->
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold text-muted mb-3">Masters student</div>
+                                <span class="display-6">Fridolin Blum</span>
+                                <div class="d-inline-block mt-3">
+                                    
+                                    <div class="d-inline-flex">
+                                        <i class="bi bi-house-fill me-2"></i>
+                                        <address>
+                                            Department Informatik<br>
+                                            Berliner Tor 7<br>
+                                            20099 Hamburg
+                                        </address>
+                                    </div>
+                                    <div class="d-inline-flex">
+                                        <i class="bi bi-envelope-fill me-2"></i>
+                                        <a href="mailto:fridolin.blum@haw-hamburg.de">fridolin.blum@haw-hamburg.de</a>
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/stocks.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/trader.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/typing.png" alt="..." />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+        <!-- Testimonials section-->
+        <section class="py-5 border-bottom" id="institution">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Institution</h2>
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto">
-                        <p class="lead">
-                        moneytweet is a system developed by researchers at the Hamburg University of Applied Sciences.
-                        The goal is to track the real-time trends of a specific financial subject and compare the sentiment to the live stocks.
-                        </p>
-                    </div>
-                    <div class="col-lg-4 me-auto">
-                        <p class="lead">
-                            The goal is to give a prediction for stock markets to support inexperienced traders.
-                            By using the moneytweet system it is possible to estimate the future stock development based on historic events.
-                        </p>
-                    </div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://github.com/moneytweet">
-                        <i class="bi bi-github"></i>
-                        Follow us on GitHub
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact the Developers</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <a href="https://www.haw-hamburg.de/en/university/faculty-of-engineering-and-computer-science/departments/computer-science/">
+                                    <img class="d-inline-block align-text-top" src="./assets/haw_logo_long.jpg" alt="" width="100%">
+                                </a>
+                                <div class="d-flex mt-5">
+                                    <div class="flex-shrink-0"><i class="bi bi-building text-primary fs-1"></i></div>
+                                    <div class="ms-4 d-inline">
+                                        
+                                        <address>
+                                            Department Informatik<br>
+                                            Fakultät Technik und Informatik<br>
+                                            Hamburg University of Applied Sciences (HAW Hamburg)<br>
+                                            Berliner Tor 7<br>
+                                            20099 Hamburg<br>
+                                        </address>
+                                        
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+            
         <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Institute</h4>
-                        <p class="lead mb-0">
-                            Department Informatik<br>
-                            Fakultät Technik und Informatik<br>
-                            HAW Hamburg<br>
-                            Berliner Tor 7<br>
-                            20099 Hamburg
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/moneytweet"><i class="bi bi-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="bi bi-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://https://moneytweet.github.io/"><i class="bi bi-globe"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About moneytweet</h4>
-                        <p class="lead mb-0">
-                            moneytweet is a free to use system to support your financial decisions.<br>
-                            Made with ❤.<br>
-                            Powered by <a href="https://labs.openai.com/">Dall·E</a> and <a href="https://startbootstrap.com/theme/freelancer">Freelancer</a>
-                            .
-                        </p>
-                    </div>
-                </div>
+        <footer class="py-5 bg-dark">
+            <div class="container text-center px-5 ">
+                <a href="#" class="text-white">Back to top</a>
             </div>
+            <div class="container mt-3 px-5"><p class="m-0 text-center text-white">Made with ❤ in Germany</div>
+            <div class="container  text-center  text-white"><a  target="_blank" href="https://icons8.com/icon/116156/stocks-growth">Stocks Growth</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; moneytweet 2022</p></div>
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; moneytweet 2022</small></div>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Powered by Big-Data.</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ai.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">
-                                        Combining artificial intelligence and big data is the key of our system.
-                                        Data is being collected, analyzed and used for precise predictions.
-                                        Our system implements utilizes the big data architecture Lambda to provide fast access and computation power for the use case of our system.
-                                    </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Real-time money.</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/stocks.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">
-                                        Managing money has never been easy.
-                                        Therefore, choosing the right financial products is very important.
-                                        However, there is a specific risk when it comes to buying stocks.<br>
-                                        moneytweet is able to provide the necessary support in topic.
-                                        Not only does it combine historical trends but also estimates future stock trends and detects sudden changes.
-                                        This makes it a reliable system to gather information about the status of the stock market and favorite financial products. 
-                                    </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Expert advice</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/trader.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">
-                                        Talking about finances can sometimes be a sensitive topic.
-                                        Especially when talking to strangers.
-                                        moneytweet supports you in your financial situation without having to give any information about yourself.
-                                        As this provided service is free to use, you so not have to concern about your private data at all.
-                                        However, moneytweet does a great job guiding you in any decicions with your money.
-                                    </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Real-time trends.</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/typing.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">
-                                        Stock markets do also impact other areas.
-                                        moneytweet analyzes real-time trends of stock related topics to generate correlations improve its predictions.
-                                        This can be used to evaluate historic evenets as well as getting live updates of possible stock market developments in the near future. 
-                                    </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
