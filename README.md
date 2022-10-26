@@ -3,6 +3,11 @@ _See the influence of current social trends on the share market._
 
 For more information visit our website: [moneytweet.github.io](https://moneytweet.github.io/)
 
+Contributors:<br>
+[@r-grun](https://github.com/r-grun)<br>
+[@frblum](https://github.com/frblum)<br>
+[![moneytweet]](https://github.com/moneytweet/moneytweet.github.io/graphs/contributors) 
+
 <br>
 <br>
 
